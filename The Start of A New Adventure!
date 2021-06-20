@@ -59,16 +59,16 @@ Include "globals.h";
 
 Include "puny.h";
 
-Object Library "The Director's of Operations Office."
+Object Library "The Director's of Operations Office.^"
 	with
-		description "You are in the boss's office.";
+		description "You are in the boss's office.^";
 
 Object -> Person "Director of Covert Operations, Bill Protype"
 	with
 		name 'Bill',
-		inside_description "Welcome to The Christian Strategic Command Center.",
+		inside_description "Welcome to The Christian Strategic Command Center.^",
 	Person has your file, retrieve it from Bill 
 
 [Initialise;
 	print "^^And so the story begins...^^";
-]; print "^You are welcome Mr OPTIONAL_REACTIVE_PARSE_NAME^"
+]; print "^You are welcome Mr self.^"
